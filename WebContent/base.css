@@ -1,0 +1,224 @@
+div {
+	/* border: solid thin red; */
+}
+
+.base_div {
+	margin: 0px auto 0;
+	width: 1200px;
+}
+
+body, h1, h2, h3, h4, h5, h6, hr, p, ul, li, ol, form, button, input,
+	textarea {
+	margin: 0;
+	padding: 0;
+}
+
+body, button, input, select, textarea {
+	border: 0 none;
+	font-family: "microsoft yahei";
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "microsoft yahei";
+	font-size: 100%;
+	font-weight: normal;
+}
+
+address, cite, dfn, em, var {
+	font-style: normal;
+}
+
+ul, ol, li {
+	list-style: outside none none;
+}
+
+img {
+	border: 0 none;
+	display: block;
+}
+
+a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+}
+
+a {
+	/* color: #ffffff; */
+	outline: medium none;
+	text-decoration: none;
+}
+
+.clear {
+	clear: both;
+}
+
+html, body {
+	color: #333333;
+}
+
+article, aside, dialog, footer, header, section, nav, figure, menu {
+
+}
+
+.w_1200 {
+	margin: 0 auto;
+	width: 1200px;
+}
+
+a:hover {
+	/* color: #fb950c; */
+}
+
+.t_headed {
+	background: #333 none repeat scroll 0 0;
+	min-width: 1200px;
+}
+
+.t_top_l span, #t_dl, #t_zc {
+	background: rgba(0, 0, 0, 0) url("../images/base/top_icon.jpg") no-repeat
+		scroll 3px 3px;
+}
+
+.t_top_l {
+	color: #e2e2e2;
+	float: left;
+	font-family: "simsun";
+	line-height: 37px;
+}
+
+.ft16 {
+	font-size: 16px;
+	font-style: normal;
+}
+
+.t_top_l font {
+	font-size: 14px;
+}
+
+.t_top_l span {
+	color: #e2e2e2;
+	display: inline-block;
+	font-size: 14px;
+	text-align: right;
+	width: 70px;
+}
+
+.t_top_l stong {
+	display: inline-block;
+	font-size: 10px;
+}
+
+.t_top_r {
+	color: #a7a7a7;
+	float: right;
+	font-size: 12px;
+	line-height: 40px;
+	text-align: right;
+}
+
+.t_top_r li {
+	float: left;
+	margin-right: 11px;
+}
+
+.t_top_r li a {
+	color: #e2e2e2;
+	padding-left: 23px;
+}
+
+#t_dl {
+	background-position: -5px -39px;
+	margin-right: 20px;
+}
+
+#t_zc {
+	background-position: -5px -68px;
+}
+
+.t_head_bg {
+	background: #ffffff none repeat scroll 0 0;
+	height: 50px;
+	overflow: hidden;
+	padding: 20px 0;
+}
+
+.t_logo {
+	background: url("../images/top_logo.png") no-repeat
+		scroll 0 0;
+	float: left;
+	height: 50px;
+	overflow: hidden;
+	text-indent: -9999px;
+	width: 334px;
+}
+
+.t_menu {
+	float: right;
+	font-size: 18px;
+	line-height: 2px;
+	color:#333;
+}
+
+.t_menu a {
+	color: #333;
+	float: left;
+	margin-left: 54px;
+}
+
+#t_color {
+	color: #f6ac00;
+}
+
+.content {
+	min-width: 1200px;
+}
+
+.foot {
+	background: #3b3b3b none repeat scroll 0 0;
+	height: 250px;
+	min-width: 1200px;
+	padding-top: 27px;
+}
+
+.foot p {
+	color: #9a9a9a;
+	height: 40px;
+	line-height: 40px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.ft_nr {
+	color: #ccc;
+	text-align: center;
+}
+
+.ft_nr a {
+	color: #ccc;
+}
+
+.ft_nr span {
+	display: inline-block;
+	height: 14px;
+	overflow: hidden;
+	padding: 0 10px;
+}
+
+.ft_img {
+	margin-left: 338px;
+}
+
+.ft_img img {
+	float: left;
+	margin-right: 21px;
+}
+/*logo��Ƭ��С*/
+.logoimg {
+	height: 55px;
+	left: 0;
+	top: 0;
+	width: 160px;
+	float: left;
+}
+.reg_input .color:hover,.t_top_l a:hover span,.t_headed a:hover ,.foot_navigation li a:hover, .media_panel a:hover{
+	color: #fb950c;
+}
